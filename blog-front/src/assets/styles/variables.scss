@@ -1,0 +1,185 @@
+// ========================================
+// 全局主题变量 — 柔雾粉玻璃拟态主题
+// ========================================
+
+// 主色 — 低饱和桃粉/玫瑰粉/淡紫体系
+$pink-50: #fef6f9;
+$pink-100: #fde8ef;
+$pink-200: #f9d4e0;
+$pink-300: #f4b8ca;
+$pink-400: #ec95b0;
+$pink-500: #e07594;
+$pink-600: #c95d7e;
+$pink-700: #ab4769;
+$pink-800: #8a3754;
+$pink-900: #6d2b42;
+
+// 粉紫渐变辅助色
+$purple-pink-100: #f3e8ff;
+$purple-pink-200: #e9d5ff;
+$purple-pink-300: #d8b4fe;
+$purple-pink-400: #c084fc;
+$purple-pink-500: #a855f7;
+
+// 玫瑰色系
+$rose-100: #ffe4e6;
+$rose-200: #fecdd3;
+$rose-300: #fda4af;
+$rose-400: #fb7185;
+$rose-500: #f43f5e;
+
+// 扩展暖灰阶（与粉色和谐搭配）
+$warm-gray-50: #fdfbfa;
+$warm-gray-100: #faf5f3;
+$warm-gray-200: #f5eeea;
+$warm-gray-300: #e8ddd8;
+$warm-gray-400: #cdbfb9;
+$warm-gray-500: #a69892;
+$warm-gray-600: #857973;
+$warm-gray-700: #695e59;
+$warm-gray-800: #4d4440;
+$warm-gray-900: #2d2826;
+
+// 中性色
+$gray-50: #fafafa;
+$gray-100: #f5f5f5;
+$gray-200: #eeeeee;
+$gray-300: #e0e0e0;
+$gray-400: #bdbdbd;
+$gray-500: #9e9e9e;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+
+// 语义色
+$color-primary: $pink-500;
+$color-primary-light: $pink-200;
+$color-primary-dark: $pink-700;
+$color-bg: $pink-50;
+$color-bg-card: rgba(255, 255, 255, 0.75);
+$color-bg-warm: $warm-gray-100;
+$color-text: $warm-gray-800;
+$color-text-secondary: $warm-gray-500;
+$color-border: $warm-gray-200;
+$color-white: #ffffff;
+
+// 玻璃拟态专用变量
+$glass-bg: rgba(255, 255, 255, 0.65);
+$glass-bg-strong: rgba(255, 255, 255, 0.8);
+$glass-border: rgba(255, 255, 255, 0.5);
+$glass-border-strong: rgba(255, 255, 255, 0.7);
+$glass-blur: 20px;
+$glass-blur-light: 12px;
+
+// 多层粉色柔和阴影
+$glass-shadow-sm: 
+  0 2px 8px rgba($pink-400, 0.08),
+  0 1px 3px rgba($pink-500, 0.06),
+  inset 0 1px 0 rgba(255, 255, 255, 0.8);
+$glass-shadow-md: 
+  0 8px 24px rgba($pink-400, 0.12),
+  0 4px 12px rgba($pink-500, 0.08),
+  0 2px 4px rgba($pink-500, 0.04),
+  inset 0 1px 0 rgba(255, 255, 255, 0.9);
+$glass-shadow-lg: 
+  0 16px 48px rgba($pink-400, 0.18),
+  0 8px 24px rgba($pink-500, 0.12),
+  0 4px 8px rgba($pink-500, 0.06),
+  inset 0 1px 0 rgba(255, 255, 255, 0.95);
+$glass-shadow-xl: 
+  0 24px 64px rgba($pink-400, 0.22),
+  0 12px 32px rgba($pink-500, 0.16),
+  0 6px 16px rgba($pink-500, 0.08),
+  inset 0 1px 0 rgba(255, 255, 255, 1);
+
+// Hover时的扩散粉色柔光
+$glass-shadow-hover: 
+  0 20px 56px rgba($pink-400, 0.28),
+  0 10px 28px rgba($pink-500, 0.18),
+  0 4px 12px rgba($pink-500, 0.1),
+  0 0 40px rgba($pink-300, 0.25),
+  inset 0 1px 0 rgba(255, 255, 255, 1);
+
+// 渐变辅助
+$gradient-pink-light: linear-gradient(135deg, $pink-100 0%, $warm-gray-100 50%, $pink-50 100%);
+$gradient-pink-accent: linear-gradient(135deg, $pink-400 0%, $pink-600 100%);
+$gradient-rose-glow: radial-gradient(circle at 30% 20%, rgba($pink-300, 0.3) 0%, transparent 60%);
+$gradient-pink-purple: linear-gradient(135deg, $pink-400 0%, $purple-pink-400 100%);
+$gradient-pink-purple-soft: linear-gradient(135deg, rgba($pink-300, 0.8) 0%, rgba($purple-pink-300, 0.8) 100%);
+
+// 双层径向浅粉渐变背景
+$gradient-bg-main: 
+  radial-gradient(ellipse 60% 50% at 10% 0%, rgba($pink-200, 0.5) 0%, transparent 60%),
+  radial-gradient(ellipse 50% 45% at 90% 20%, rgba($purple-pink-200, 0.4) 0%, transparent 55%),
+  radial-gradient(ellipse 55% 50% at 50% 100%, rgba($pink-100, 0.6) 0%, transparent 60%),
+  linear-gradient(180deg, $pink-50 0%, #fef5f8 30%, #fdf2f7 60%, $warm-gray-50 100%);
+
+// 字体
+$font-family: "PingFang SC", "Microsoft YaHei", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-mono: "JetBrains Mono", "Menlo", "Monaco", "Consolas", monospace;
+
+// 字重
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-size-xs: 12px;
+$font-size-sm: 13px;
+$font-size-base: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-2xl: 32px;
+$font-size-hero: 48px;
+
+// 字距
+$tracking-tight: -0.02em;
+$tracking-normal: 0;
+$tracking-wide: 0.05em;
+$tracking-wider: 0.1em;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+$spacing-3xl: 64px;
+
+// 圆角
+$radius-sm: 4px;
+$radius-md: 10px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-round: 50%;
+
+// 阴影
+$shadow-sm: 0 1px 3px rgba($pink-800, 0.06), 0 1px 2px rgba($pink-800, 0.04);
+$shadow-md: 0 4px 12px rgba($pink-800, 0.08), 0 2px 4px rgba($pink-800, 0.04);
+$shadow-lg: 0 8px 30px rgba($pink-800, 0.10), 0 4px 8px rgba($pink-800, 0.05);
+$shadow-xl: 0 20px 60px rgba($pink-800, 0.15), 0 8px 16px rgba($pink-800, 0.06);
+
+// 过渡
+$transition-fast: 0.15s cubic-bezier(0.2, 0.8, 0.2, 1);
+$transition-normal: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+$transition-slow: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+// Element Plus 覆盖变量
+:root {
+  --el-color-primary: #{$color-primary};
+  --el-color-primary-light-3: #{$pink-400};
+  --el-color-primary-light-5: #{$pink-300};
+  --el-color-primary-light-7: #{$pink-200};
+  --el-color-primary-light-8: #{$pink-100};
+  --el-color-primary-light-9: #{$pink-50};
+  --el-color-primary-dark-2: #{$color-primary-dark};
+  --el-bg-color: #{$color-bg};
+}
+
+// 暗色主题变量预留给未来
+[data-theme="dark"] {
+  --el-bg-color: #1a1a1a;
+}

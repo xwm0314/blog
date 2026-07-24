@@ -1,0 +1,66 @@
+﻿﻿[
+  {
+    "_id": "tag1",
+    "name": "技术",
+    "color": "#2563eb",
+    "description": "技术相关文章",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag2",
+    "name": "学习",
+    "color": "#7c3aed",
+    "description": "学习笔记与总结",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag3",
+    "name": "生活",
+    "color": "#d97706",
+    "description": "生活随笔与分享",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag4",
+    "name": "前端",
+    "color": "#d4839a",
+    "description": "前端开发相关",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag5",
+    "name": "Node.js",
+    "color": "#339933",
+    "description": "Node.js 后端开发",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag6",
+    "name": "阅读",
+    "color": "#a855f7",
+    "description": "读书笔记与感悟",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag7",
+    "name": "随笔",
+    "color": "#888",
+    "description": "日常随笔杂记",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "tag8",
+    "name": "Vue",
+    "color": "#42b883",
+    "description": "Vue.js 框架",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+]

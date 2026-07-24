@@ -1,0 +1,37 @@
+{
+  "nickname": "潇雯敏",
+  "slogan": "个人成长记录",
+  "avatar": "/uploads/1784047341867-106514165.png",
+  "bio": "哈哈哈",
+  "sidebarComponents": [
+    {
+      "id": "1783958258512",
+      "type": "social",
+      "title": "社交账号",
+      "items": [
+        {
+          "name": "抖音",
+          "username": "@萧雯敏",
+          "url": "charmingXWM",
+          "avatar": "",
+          "account": "charmingXWM"
+        }
+      ],
+      "size": "small"
+    },
+    {
+      "id": "1784022506585",
+      "type": "social",
+      "title": "社交账号",
+      "size": "small",
+      "items": [
+        {
+          "name": "抖音",
+          "username": "@昵称",
+          "account": "123",
+          "avatar": ""
+        }
+      ]
+    }
+  ]
+}
