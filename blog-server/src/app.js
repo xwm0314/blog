@@ -40,17 +40,17 @@ app.use((req, res) => {
 // ======== 全局异常处理 ========
 app.use(errorHandler)
 
-// ======== 启动服务器 ========
-async function start() {
-  // 连接数据库
+async function initialize() {
   await connectDB()
+}
 
+initialize()
+
+if (process.env.NODE_ENV !== 'production') {
   app.listen(config.port, '0.0.0.0', () => {
     console.log(`[Server] 博客后端服务已启动: http://localhost:${config.port}`)
     console.log(`[Server] 外部访问地址: http://0.0.0.0:${config.port}`)
   })
 }
-
-start()
 
 module.exports = app
